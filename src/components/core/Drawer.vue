@@ -9,13 +9,12 @@
     floating
     mobile-break-point="991"
     persistent
-    expand-on-hover
     width="260"
   >
     <template v-slot:img="attrs">
       <v-img
         v-bind="attrs"
-        gradient="to top, rgba(0, 100, 0, .7), rgba(0, 0, 0, .7)"
+        gradient="to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)"
       />
     </template>
 
@@ -29,7 +28,7 @@
       </v-list-item-avatar>
 
       <v-list-item-title class="title">
-        CAELMETRIX
+        VUETIFY MD
       </v-list-item-title>
     </v-list-item>
 
