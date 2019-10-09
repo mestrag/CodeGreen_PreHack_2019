@@ -17,17 +17,17 @@
     </div>
     <v-spacer />
     <span class="font-weight-light copyright">
-      &copy;
-      {{ (new Date()).getFullYear() }}
+      <!-- &copy; -->
+      <!-- {{ (new Date()).getFullYear() }} -->
       <a
-        href="https://www.creative-tim.com/"
+        href="https://www.db.com/"
         target="_blank"
-      >Creative Tim</a>, made with
+      >Code Green Hack Team</a>, made with
       <v-icon
         color="tertiary"
         size="17"
       >mdi-heart</v-icon>
-      for a better web
+      for a better World
     </span>
   </v-footer>
 </template>
@@ -37,9 +37,7 @@
     data: () => ({
       links: [
         { name: 'Home', Link: '/#' },
-        { name: 'Creative Tim', Link: 'https://www.creative-tim.com' },
-        { name: 'About Us', Link: 'https://creative-tim.com/presentation' },
-        { name: 'Blog', Link: 'https://blog.creative-tim.com' }
+        { name: 'About Us', Link: 'https://www.db.com' }        
       ]
     })
   }

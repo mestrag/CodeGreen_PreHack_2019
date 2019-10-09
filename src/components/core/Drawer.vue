@@ -19,16 +19,17 @@
     </template>
 
     <v-list-item two-line>
-      <v-list-item-avatar color="white">
+      <v-list-item-avatar >
+        <!-- <img src="Caelimetrixlogo.png" > -->
         <v-img
-          src="https://cdn.vuetifyjs.com/images/logos/v.png"
-          height="34"
-          contain
+          src="Caelimetrixlogo2.png"
+          height="64"
+          
         />
       </v-list-item-avatar>
 
       <v-list-item-title class="title">
-        VUETIFY MD
+        Caelimetrix
       </v-list-item-title>
     </v-list-item>
 
@@ -62,7 +63,7 @@
           </v-list-item-action>
 
           <v-list-item-title class="font-weight-light">
-            Upgrade To PRO
+            Change Link
           </v-list-item-title>
         </v-list-item>
       </v-list>
@@ -98,8 +99,8 @@
         },
         {
           to: '/table-list',
-          icon: 'mdi-clipboard-outline',
-          text: 'Table List'
+          icon: 'mdi-account-search',
+          text: 'Client Insights'
         },
         {
           to: '/typography',

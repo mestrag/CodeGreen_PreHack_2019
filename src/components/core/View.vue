@@ -14,7 +14,7 @@
 
     metaInfo () {
       return {
-        title: 'Vue Material Dashboard by CreativeTim'
+        title: 'Code Green Hack Team'
       }
     }
   }

@@ -4,40 +4,12 @@
     fluid
     grid-list-xl
   >
-
     <v-row justify="center">
-      <v-col cols="12" sm="4">
-        <v-overflow-btn
-          class="my-2"
-          :items="Client_Names"
-          label="Client Name"
-          target="#dropdown-example"
-        ></v-overflow-btn>
-        
-         <v-overflow-btn
-          class="my-2"
-          :items="Sector_Names"
-          label="Sector"
-          target="#dropdown-example"
-        ></v-overflow-btn>
-        
-          <v-overflow-btn
-          class="my-2"
-          :items="Symbol"
-          label="Symbol"
-          target="#dropdown-example"
-        ></v-overflow-btn>
-
-        <v-btn small class="white--text"  color='blue' >Analyze</v-btn>
-
-      </v-col>
-      
       <v-col cols="12">
-        
         <material-card
           color="green"
-          title="Client Holdings"
-          text="Client Holdings in Hot Stocks"
+          title="Simple Table"
+          text="Here is a subtitle for this table"
         >
           <v-data-table
             :headers="headers"
@@ -125,15 +97,6 @@
           city: 'Gloucester',
           salary: '$78,615'
         }
-      ],
-      Client_Names: [
-         'All','Blackrock Asset Management', 'Capital One Investments', 'Boston Color Hedge Fund', 'Milleninum Venture Capital'
-      ],
-      Sector_Names: [
-        'All','Automobiles', 'Renewables','Utility', 'Banks', 'Mining'
-      ],
-      Symbol: [
-        'All','MSFT','IBM','APPL','GOOG'
       ]
     })
   }

@@ -16,7 +16,7 @@ export default [
   },
   {
     path: '/table-list',
-    name: 'Table List',
+    name: 'Client Portfolio Analysis - Powered By Caelimetrix',
     view: 'TableList'
   },
   {
